@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to right, #76b852, #8dc26f); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main-div {
+    background-color: #fff;
+    padding: 30px 40px; 
+    border-radius: 12px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 30px; 
+}
+
+
+.form1 {
+    margin-bottom: 30px; 
+}
+
+
+.gel-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+
+.input {
+    width: 180px;
+    padding: 10px;
+    margin-right: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.gelCurrency {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.button {
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
+.resultDisplay {
+    display: block;
+    margin-top: 30px; 
+    font-size: 22px; 
+    font-weight: bold;
+    color: #333;
+}
